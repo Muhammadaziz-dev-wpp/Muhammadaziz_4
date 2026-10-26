@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover thoughtful technology and everyday essentials at Forma."
+    />
+    <meta name="theme-color" content="#f5f5f7" />
+    <title>iPhone_shop — Technology, thoughtfully made</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="catalog.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="iPhone_shop home">
+          <svg class="brand-mark" viewBox="0 0 24 28" aria-hidden="true">
+            <rect x="5" y="2.5" width="14" height="23" rx="3" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M10 6h4M11 21h2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" />
+          </svg>
+          <span>iPhone_shop</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-menu">
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="primary-menu">
+          <a href="#iphone">iPhone</a>
+          <a href="#mac">Mac</a>
+          <a href="#ipad">iPad</a>
+          <a href="#watch">Watch</a>
+          <a href="#audio">Audio</a>
+          <a href="#stories">Our story</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="icon-button search-toggle" type="button" aria-label="Search" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          </button>
+          <a class="icon-button bag-link" href="product.html?view=bag" aria-label="Shopping bag">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg>
+          </a>
+        </div>
+
+        <form class="search-panel" role="search">
+          <label class="visually-hidden" for="site-search">Search products</label>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          <input id="site-search" type="search" placeholder="What are you looking for?" />
+          <span class="search-status" role="status" aria-live="polite"></span>
+          <button type="button" class="search-close" aria-label="Close search">×</button>
+        </form>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">A little more wonder.</p>
+          <h1>Made for the<br />way you <em>move.</em></h1>
+          <p class="hero-description">Meet the new generation of everyday essentials. Thoughtfully designed to go wherever life takes you.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="store.html">Barcha mahsulotlar <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#stories">Why Forma <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="A modern smartphone photographed against a warm, sculptural backdrop" role="img">
+          <div class="hero-orb orb-one"></div>
+          <div class="hero-orb orb-two"></div>
+          <div class="hero-image"></div>
+          <div class="hero-caption"><span>01 / 05</span><span>Form meets feeling</span></div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true"><span></span> Scroll to discover</div>
+      </section>
+
+      <section class="intro-band reveal" id="shop">
+        <p>Technology should feel<br /><em>like it belongs.</em></p>
+        <span>Designed around you.<br />Made to last beyond today.</span>
+      </section>
+
+      <section class="feature feature-phone" id="iphone">
+        <div class="feature-copy reveal">
+          <p class="eyebrow">The everyday, elevated</p>
+          <h2>iPhone.<br /><span>In its element.</span></h2>
+          <p>A brilliant display, a camera ready for real life, and all-day power in a beautifully considered design.</p>
+          <div class="product-links">
+            <a class="button button-light" href="product.html?product=iphone">Learn more <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="product.html?product=iphone">Shop iPhone <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="feature-visual phone-visual reveal">
+          <div class="phone-glow"></div>
+          <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1600&q=85" alt="A sleek smartphone with a vivid display" loading="lazy" />
+          <span class="visual-note">Color, captured.</span>
+        </div>
+        <span class="feature-index" aria-hidden="true">01</span>
+      </section>
+
+      <section class="feature feature-mac" id="mac">
+        <div class="feature-visual mac-visual reveal">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1800&q=85" alt="A slim laptop on a clean, light workspace" loading="lazy" />
+          <span class="visual-note">A fresh perspective.</span>
+        </div>
+        <div class="feature-copy reveal">
+          <p class="eyebrow">More room to imagine</p>
+          <h2>MacBook.<br /><span>Go make a mark.</span></h2>
+          <p>Powerful enough for big ideas. Light enough to take them everywhere. Your next great thing starts here.</p>
+          <div class="product-links">
+            <a class="button button-dark" href="product.html?product=mac">Learn more <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="product.html?product=mac">Shop Mac <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <span class="feature-index" aria-hidden="true">02</span>
+      </section>
+
+      <section class="duo-grid">
+        <article class="product-card card-ipad" id="ipad">
+          <div class="card-copy reveal">
+            <p class="eyebrow">Ideas, in full color</p>
+            <h2>iPad</h2>
+            <p>All the room you need to make it yours.</p>
+            <a class="text-link" href="product.html?product=ipad">Discover iPad <span aria-hidden="true">→</span></a>
+          </div>
+          <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=85" alt="A tablet ready for creative work" loading="lazy" />
+        </article>
+        <article class="product-card card-watch" id="watch">
+          <div class="card-copy reveal">
+            <p class="eyebrow">A healthier kind of time</p>
+            <h2>Apple Watch</h2>
+            <p>More ways to move through your day.</p>
+            <a class="text-link" href="product.html?product=watch">Discover Watch <span aria-hidden="true">→</span></a>
+          </div>
+          <img src="https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=1200&q=85" alt="A modern smartwatch with a dark strap" loading="lazy" />
+        </article>
+      </section>
+
+      <section class="audio-section" id="audio">
+        <div class="audio-copy reveal">
+          <p class="eyebrow">Find your frequency</p>
+          <h2>AirPods.<br /><em>Feel everything.</em></h2>
+          <p>Rich, immersive sound that makes every playlist feel like your own private world.</p>
+          <a class="button button-light" href="product.html?product=audio">Explore AirPods <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="audio-visual reveal">
+          <div class="audio-ring"></div>
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1300&q=85" alt="Premium headphones with a minimalist design" loading="lazy" />
+        </div>
+        <span class="feature-index" aria-hidden="true">05</span>
+      </section>
+
+      <section class="story-section" id="stories">
+        <div class="story-top reveal">
+          <p class="eyebrow">The Forma point of view</p>
+          <h2>Less, but<br /><em>better.</em></h2>
+        </div>
+        <div class="story-bottom reveal">
+          <p>We believe the best technology doesn't ask for your attention. It gives it back. So we celebrate thoughtful design, useful details, and the moments that happen away from the screen.</p>
+          <a class="text-link" href="#contact">A little more about us <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-main">
+        <a class="brand footer-brand" href="#home" aria-label="iPhone_shop home">
+          <svg class="brand-mark" viewBox="0 0 24 28" aria-hidden="true"><rect x="5" y="2.5" width="14" height="23" rx="3" fill="none" stroke="currentColor" stroke-width="2" /><path d="M10 6h4M11 21h2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" /></svg>
+          <span>iPhone_shop</span>
+        </a>
+        <p>Made for the way you move.</p>
+        <a class="footer-contact" href="mailto:hello@forma.example">Say hello <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 iPhone_shop</span>
+        <span>Independent concept. Not affiliated with Apple Inc.</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
